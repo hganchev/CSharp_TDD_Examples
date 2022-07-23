@@ -22,5 +22,10 @@ namespace Classes
         {
             return x/y;
         }
+
+        public bool isOdd(int x)
+        {
+            return x%2==1;
+        }
     }
 }
